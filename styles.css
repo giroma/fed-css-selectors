@@ -2,7 +2,7 @@
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
 
 html {
-  font-size: 12px;
+  font-size: 14px;
 }
 h1, h2{
   font-family: helvetica;
@@ -33,4 +33,26 @@ header {
 }
 #item2 {
   text-align: right;
+}
+
+#advanced-selectors {
+  padding: 10px;
+  background-color: grey;
+}
+
+#advanced-selectors ul {
+  background-color: white;
+}
+#advanced-selectors ul li:nth-child(odd) {
+  background-color: green;
+}
+
+#advanced-selectors a[title="Bitmaker"]:hover {
+  text-decoration: none;
+}
+#advanced-selectors ul:hover {
+  background-color: yellow;
+}
+#advanced-selectors ul a:active {
+  background-color: red;
 }
